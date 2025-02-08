@@ -46,7 +46,7 @@ function newMove(e) {
         if (check(player)) {
             setTimeout(() => {
                 let venc= player === "X" ? jogador1 : jogador2;
-                alert(`O JOGADOR(A) ${venc} VENCEU!🏆✨`);
+                alert(`JOGADOR(A) ${venc} VENCEU!🏆✨`);
                 init();
             }, 100);
             return;
