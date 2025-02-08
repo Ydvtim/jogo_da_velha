@@ -1,5 +1,4 @@
 const currentPlayer = document.querySelector(".currentPlayer"); //evento dos nomes dos jogadores
-const resetButton = document.getElementById("resetButton"); // quando clicar no botão de reiniciar o jogo vai reiniciar
 const reloadButton = document.getElementById("reloadButton"); // quando clicar no botão de reiniciar a página vai reiniciar a pagina
 let selected;
 let jogador1 = prompt("Digite o nome do jogador X:") || "X"; // coletando o nome dos jogadores e caso eles não coloquem o nome vai ficar padrão
@@ -71,7 +70,6 @@ function check(playerToCheck) {
     return positions.some((pos) => pos.every((index) => selected[index] === playerToCheck));
 }
 
-resetButton.addEventListener("click", init); // Botão resetar jogo
 reloadButton.addEventListener("click", () => location.reload()); // botãao resetar página
 init();
 
