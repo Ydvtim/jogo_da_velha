@@ -26,6 +26,9 @@ h1 {
     color:aliceblue;
     border-radius: 10px;
 }
+h2 {
+   color: rgb(246, 198, 242);
+}
 hr{
     font-weight: bold;
     height: 3px;
