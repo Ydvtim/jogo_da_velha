@@ -2,8 +2,8 @@ const currentPlayer = document.querySelector(".currentPlayer"); //evento dos nom
 const resetButton = document.getElementById("resetButton"); // quando clicar no botão de reiniciar o jogo vai reiniciar
 const reloadButton = document.getElementById("reloadButton"); // quando clicar no botão de reiniciar a página vai reiniciar a pagina
 let selected;
-let jogador1 = prompt("Digite o nome do jogador X:") || "Jogador X"; // coletando o nome dos jogadores
-let jogador2 = prompt("Digite o nome do jogador O:") || "Jogador O";
+let jogador1 = prompt("Digite o nome do jogador X:") || "X"; // coletando o nome dos jogadores e caso eles não coloquem o nome vai ficar padrão
+let jogador2 = prompt("Digite o nome do jogador O:") || "O";
 
 let playerX = "X"; 
 let playerO = "O";
